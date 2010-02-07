@@ -1,0 +1,37 @@
+# Polish translations for PACKAGE package
+# Polskie tłumaczenia dla pakietu PACKAGE.
+# Copyright (C) 2010 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Michal Prochowski <michal@prochowski.pl>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-07 00:51+0100\n"
+"PO-Revision-Date: 2010-02-07 00:52+0100\n"
+"Last-Translator: Michal Prochowski <michal@prochowski.pl>\n"
+"Language-Team: Polish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+
+#: nautilus-meld-compare.py:55 nautilus-meld-compare.py:57
+msgid "Compare content"
+msgstr "Porównaj zawartość"
+
+#: nautilus-meld-compare.py:55
+#, python-format
+msgid "Compare `%(firstFilename)s` and `%(secoundFilename)s` in Meld"
+msgstr "Porównaj `%(firstFilename)s` i `%(secoundFilename)s` w Meld"
+
+#: nautilus-meld-compare.py:57
+#, python-format
+msgid ""
+"Compare `%(firstFilename)s`, `%(secoundFilename)s` and `%(thirdFilename)s` "
+"in Meld"
+msgstr ""
+"Porównaj `%(firstFilename)s`, `%(secoundFilename)s` i `%(thirdFilename)s` "
+"w Meld"

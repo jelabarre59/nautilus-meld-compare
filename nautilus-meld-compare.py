@@ -52,8 +52,8 @@ class MedlDiffExtension(nautilus.MenuProvider):
 
         if compare:
             if len(files) == 2:
-                item = nautilus.MenuItem('NautilusPython::meld_compare_file_item', self._("Compare content"), self._("Compare `%(f1)s` and `%(f1)s` in Meld") %{"f1": files[0].get_name(), "f2": files[1].get_name()})
+                item = nautilus.MenuItem('NautilusPython::meld_compare_file_item', self._("Compare content"), self._("Compare `%(firstFilename)s` and `%(secoundFilename)s` in Meld") % {'firstFilename': files[0].get_name(), 'secoundFilename': files[1].get_name()})
             elif len(files) == 3:
-                item = nautilus.MenuItem('NautilusPython::meld_compare_file_item', self._("Compare content"), self._("Compare `%(f1)s`, `%(f2)s` and `%(f3)s` in Meld") %{'f1': files[0].get_name(), 'f2': files[1].get_name(), 'f3': files[2].get_name()})
+                item = nautilus.MenuItem('NautilusPython::meld_compare_file_item', self._("Compare content"), self._("Compare `%(firstFilename)s`, `%(secoundFilename)s` and `%(thirdFilename)s` in Meld") %{'firstFilename': files[0].get_name(), 'secoundFilename': files[1].get_name(), 'thirdFilename': files[2].get_name()})
             item.connect('activate', self.menu_activate_cb, files)
             return item,
